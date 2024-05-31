@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Compte</title>
+		<link rel="stylesheet" href="../CSS/compte.css" />
+	</head>
+	<body>
+		<header></header>
+		<h1>ENI - MEMORY - Profil</h1>
+		<nav class="no-bullets">
+			<ul class="no-bullets">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="inscription.html">S'inscrire</a></li>
+				<li><a href="connexion.html">Se connecter</a></li>
+				<li><a href="compte.html">Profil</a></li>
+				<li><a href="../game.html">Jouer</a></li>
+			</ul>
+		</nav>
+		</header>
+		<main></main>
+		<div class="container-compte">
+			<div class="header">
+				<h3>Profil</h3>
+				<img
+					id="img-profil"
+					src="assets/profil/question.svg"
+					alt="photo de profil" />
+			</div>
+			<div class="form-profil">
+				<form action="">
+					<label for="enter-name">Nom d'utilisateur</label>
+					<input type="text" name="name" id="enter-name" />
+					<label for="enter-mail">Email</label>
+					<input type="email" name="email" id="enter-mail" />
+				</form>
+			</div>
+			<div class="memory-choice">
+				<h3>Choix du Memory</h3>
+				<select name="select" id="select-memory">
+					<option value="animaux animés">animaux animés</option>
+					<option value="Dinosaures">Dinosaures</option>
+				</select>
+			</div>
+			<div class="preview-memory">
+				<img
+					src="assets/animaux animés/memory_detail_animaux_animes.png"
+					alt="preview memory animaux" />
+				<img
+					src="assets/dinosaures/memory_detail_dinosaures.png"
+					alt="preview memory dinosaures" />
+			</div>
+			<div class="size-choice">
+				<h3>Taille du Memory</h3>
+				<select name="select" id="select-memory">
+					<option value="4*3">4*3</option>
+					<option value="6*6">6*6</option>
+				</select>
+			</div>
+			<input type="button" value="Enregistrez Option" />
+		</div>
+		</main>
+	</body>
+</html>

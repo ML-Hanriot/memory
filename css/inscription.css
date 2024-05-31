@@ -1,0 +1,106 @@
+/* Commun à tous */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(101, 137, 249);
+	height: 90vh;
+}
+
+h1 {
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 3%;
+	color: white;
+}
+
+nav {
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 3%;
+	border: 2px solid white;
+}
+
+.no-bullets {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(34, 34, 34);
+	padding: 5px;
+}
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Fin du commun */
+
+.form-container {
+	/* background-color: red; */
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+	width: 100vw;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	height: 45vh;
+	background-color: rgb(34, 34, 34);
+	border-radius: 15px;
+	border: 2px solid white;
+	padding: 30px;
+	margin-top: 80px;
+	color: white;
+}
+.container2 {
+	/* background-color: blue; */
+
+	width: 100%;
+	height: 90%;
+	margin: 0 auto;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.formulaire label {
+	display: block;
+	width: 100%;
+	margin: 20px 0 10px 0;
+}
+
+#name,
+#email,
+#password,
+#confirm-password {
+	display: block;
+	width: 100%;
+	margin: 5px auto;
+	border: none;
+	border-bottom: 1.5px solid white;
+	outline: none;
+	background-color: rgb(34, 34, 34);
+	color: rgb(238, 238, 238);
+}
+
+.sign-buttons {
+	/* background-color: purple; */
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+.sign-buttons input {
+	background-color: rgb(210, 218, 146);
+	border-radius: 5px;
+	width: 150px;
+	height: 50px;
+	font-size: 13px;
+	border: none;
+}

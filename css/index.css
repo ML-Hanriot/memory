@@ -1,0 +1,74 @@
+/* Commun à tous */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(101, 137, 249);
+	height: 90vh;
+}
+
+h1 {
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 3%;
+	color: white;
+}
+
+nav {
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 1%;
+	border: 2px solid white;
+}
+
+.no-bullets {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(34, 34, 34);
+	padding: 5px;
+}
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Fin du commun */
+
+.container-global {
+	/* background-color: red; */
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* width: 40%; */
+	height: 45vh;
+	background-color: rgb(34, 34, 34);
+	border-radius: 15px;
+	border: 2px solid white;
+	padding: 30px;
+	margin-top: 60px;
+}
+
+.container p,
+.container li {
+	font-size: 0.9rem;
+	color: white;
+}
+
+h4 {
+	color: white;
+	padding: 15px 0;
+}
+
+.img-reveal {
+	padding: 20px;
+	width: 40%;
+	margin: 0 auto;
+}
